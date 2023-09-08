@@ -7,8 +7,8 @@ check_veeam_jobs -jobName "job"
 
 Configure this plugin in Nagios like this for example :
 
-Commmand
----------
+Command
+--------
 
 ```text
 define command {
@@ -35,8 +35,8 @@ define service {
 
 If your job name contains a space (or more), please use pipes to replace the spaces in the definition of the command, otherwise NCPA will not be able to get the job name properly. So for example :
 
-Commmand
----------
+Command
+--------
 
 ```text
 define command {
