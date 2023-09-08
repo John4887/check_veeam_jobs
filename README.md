@@ -3,7 +3,9 @@ Nagios NCPA plugin to check Veeam jobs
 
 Usage:
 
-check_veeam_jobs -jobName "job"
+```PowerShell
+.\check_veeam_jobs.ps1 -jobName "job"
+```
 
 Configure this plugin in Nagios like this for example :
 
